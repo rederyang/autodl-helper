@@ -23,5 +23,8 @@ unset __conda_setup
 # <<< conda initialize <<<
 EOF
 
+# disk usage display command
+echo 'source /etc/autodl-motd' >> /root/.zshrc
+
 # append network settings into .zshrc
 echo 'source /etc/network_turbo' >> /root/.zshrc
