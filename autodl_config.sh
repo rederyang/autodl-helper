@@ -28,3 +28,7 @@ echo 'source /etc/autodl-motd' >> /root/.zshrc
 
 # append network settings into .zshrc
 echo 'source /etc/network_turbo' >> /root/.zshrc
+
+# move conda env path
+mkdir  /root/autodl-tmp/conda_env
+echo -e "\nenvs_dirs:\n  - /root/autodl-tmp/conda_env" >> ~/.condarc
