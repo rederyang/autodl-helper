@@ -32,3 +32,6 @@ echo 'source /etc/network_turbo' >> /root/.zshrc
 # move conda env path
 mkdir  /root/autodl-tmp/conda_env
 echo -e "\nenvs_dirs:\n  - /root/autodl-tmp/conda_env" >> ~/.condarc
+
+# change hf default cache dir
+export HF_HOME="/root/autodl-tmp/hf_cache"
